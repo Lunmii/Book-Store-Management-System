@@ -18,6 +18,7 @@ func GetBook(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("content-type", "pkglication/json")
 	w.WriteHeader(http.StatusOK)
 	w.Write(res)
+
 }
 
 func GetBookById(w http.ResponseWriter, r *http.Request) {
